@@ -1,0 +1,52 @@
+.nav-3 {
+    padding: 10px;
+    background-color: #242527;
+    max-width: 395px;
+    width: 100vw;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 105px;
+    align-items: center;
+}
+
+.nav-3 button {
+    border: none;
+    outline: none;
+    transition: 0.15s;
+}
+
+.nav-3 button:not(:nth-child(2)) {
+    width: 37px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 60px;
+}
+
+.nav-3 button:first-child {
+    background-size: 100%;
+}
+
+.nav-3 button:last-child {
+    background-color: transparent;
+    background-size: 60%;
+}
+
+.nav-3 button:last-child:hover {
+    background-color: rgba(100, 100, 100, 0.6);
+}
+
+.nav-3 button:nth-child(2) {
+    border: 1px solid rgba(157, 158, 161, 0.356);
+    transition: border 0.15s;
+    background-color: transparent;
+    color: rgba(229, 230, 235, 0.85);
+    padding: 4px 16%;
+    border-radius: 60px;
+}
+
+.nav-3 button:nth-child(2):hover {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
